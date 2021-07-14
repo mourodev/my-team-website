@@ -1,0 +1,34 @@
+/* based */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/* text content */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.profile-item {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.profile-item p {
+  color: red;
+  writing-mode: vertical-rl;
+}
+
+.profile-item img {
+  width: 400px;
+  height: auto;
+}
